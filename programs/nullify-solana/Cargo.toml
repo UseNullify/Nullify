@@ -1,0 +1,12 @@
+[package]
+name = "nullify-solana"
+version = "0.1.0"
+edition = "2021"
+description = "Nullify shielded pool — Solana (SVM) program. WORK IN PROGRESS."
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.30.1"
+# groth16-solana = "0.0.3"   # ZK verification — to be integrated

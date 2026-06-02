@@ -1,0 +1,11 @@
+{
+  "$comment": "Filled in by scripts/deploy.ts. Addresses below are PLACEHOLDERS.",
+  "base-sepolia": {
+    "chainId": 84532,
+    "hasher": "0x0000000000000000000000000000000000000000",
+    "pool": "0x0000000000000000000000000000000000000000",
+    "verifier": "0x0000000000000000000000000000000000000000",
+    "attestor": "0x0000000000000000000000000000000000000000",
+    "denomination": "100000000000000000"
+  }
+}

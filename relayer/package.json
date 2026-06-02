@@ -1,0 +1,20 @@
+{
+  "name": "@nullify/relayer",
+  "version": "0.1.0",
+  "description": "Nullify relayer node — submits withdrawal proofs on behalf of recipients.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "ethers": "^6.13.0",
+    "fastify": "^4.27.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}

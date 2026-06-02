@@ -1,0 +1,31 @@
+# deps
+node_modules/
+.pnp.*
+
+# builds
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+
+# circuits / trusted setup
+circuits/build/
+*.zkey
+*.ptau
+*.r1cs
+*.wasm
+witness.wtns
+
+# env & secrets
+.env
+.env.*
+*.key
+keystore/
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
