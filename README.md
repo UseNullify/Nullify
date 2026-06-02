@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="banner.png" alt="Nullify - nullify the trace" width="640" />
+
 # Nullify
 
 ### Cross-Chain Privacy Bridge
