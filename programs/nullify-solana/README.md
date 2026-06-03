@@ -1,4 +1,4 @@
-# Nullify — Solana (SVM)
+# Nulify — Solana (SVM)
 
 **Status: work in progress / testnet scaffold.**
 

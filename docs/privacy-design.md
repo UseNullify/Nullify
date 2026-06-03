@@ -1,7 +1,7 @@
 # Privacy design
 
 Privacy claims are easy to make and easy to get wrong, so this document is deliberately blunt about
-what Nullify hides, what it does not, and where it can leak. If you only read one doc before
+what Nulify hides, what it does not, and where it can leak. If you only read one doc before
 trusting the design, read this one.
 
 ## The goal, stated narrowly
@@ -70,7 +70,7 @@ by the user. It is not a backdoor and cannot be triggered by the protocol or its
 
 ## A note on responsible use
 
-Financial privacy is a normal thing to want; cash has it offline. Nullify is built for that. It is
+Financial privacy is a normal thing to want; cash has it offline. Nulify is built for that. It is
 not built to launder criminal proceeds or evade sanctions, and the people working on it do not
 support that use. If you run or integrate it, the legal obligations in your jurisdiction are yours
 to meet.

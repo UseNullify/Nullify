@@ -1,4 +1,4 @@
-# Nullify: A Cross-Chain Privacy Bridge
+# Nulify: A Cross-Chain Privacy Bridge
 
 **Version 0.1 (draft) - June 2026**
 
@@ -16,7 +16,7 @@
 
 On-chain privacy today is mostly a single-chain affair. Shielded pools and mixers can break the
 link between a deposit and a withdrawal as long as both happen on the same chain, but the moment
-value crosses a bridge that link tends to reappear. Nullify is a cross-chain privacy bridge that
+value crosses a bridge that link tends to reappear. Nulify is a cross-chain privacy bridge that
 aims to preserve unlinkability across chains. A user deposits into a shielded pool on one chain as a
 cryptographic commitment, and later withdraws on another chain by producing a zero-knowledge proof
 of membership in the pool, without revealing which deposit was theirs. This paper describes the
@@ -36,7 +36,7 @@ Second, privacy on its own has run into legitimate concerns about misuse, which 
 thoughtful designs toward privacy that can coexist with lawful compliance rather than privacy that
 is absolute and indiscriminate.
 
-Nullify targets the first problem directly and is designed with the second in mind. The goal is
+Nulify targets the first problem directly and is designed with the second in mind. The goal is
 unlinkability that holds across chains, built on a pool whose anonymity set spans chains instead of
 fragmenting into a small, weak pool per chain.
 
@@ -135,7 +135,7 @@ unsafe for real value. A real deployment requires a public multi-party ceremony.
 
 ## 5. Cross-chain attestation
 
-The cross-chain property is the reason Nullify exists, and it is also the least finished part, so
+The cross-chain property is the reason Nulify exists, and it is also the least finished part, so
 this section is explicit about both the intended design and the current state.
 
 The intended design keeps a separate pool on each chain and mirrors a committed Merkle root from a
@@ -198,7 +198,7 @@ These are deliberate and documented, not oversights.
 
 ## 9. Limitations
 
-Nullify does not make funds untraceable; it breaks one specific link, and only as well as the
+Nulify does not make funds untraceable; it breaks one specific link, and only as well as the
 anonymity set and the user’s own behavior allow. The cross-chain attestation is not yet trust-
 minimized. Solana support is an early scaffold and the production targets today are EVM chains. There
 is no browser proving UI yet. None of the security properties have been independently verified.
@@ -212,7 +212,7 @@ an external audit. Each step is gated on the previous one working and being veri
 
 ## 11. Responsible use
 
-Financial privacy is a legitimate interest. Nullify is built for lawful, self-custodial use. It is
+Financial privacy is a legitimate interest. Nulify is built for lawful, self-custodial use. It is
 not intended to launder criminal proceeds or evade sanctions, and the people building it do not
 support that use. Anyone who runs or integrates it is responsible for meeting the legal obligations
 of their own jurisdiction, including any registration, screening, or reporting requirements that
@@ -222,7 +222,7 @@ choose or are required to.
 
 ## 12. Conclusion
 
-Cross-chain privacy is a hard, largely unsolved problem, and Nullify is an attempt at it built in
+Cross-chain privacy is a hard, largely unsolved problem, and Nulify is an attempt at it built in
 the open. The cryptographic core works end to end on a local chain and the basic security checks
 hold. What remains is substantial: deployment, trust-minimized attestation, a real ceremony, and an
 audit. The work is public on purpose. Privacy infrastructure should be something you can verify, not

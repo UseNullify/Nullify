@@ -1,6 +1,6 @@
 # Security
 
-Read this before trusting Nullify with anything that matters.
+Read this before trusting Nulify with anything that matters.
 
 ## Current state
 

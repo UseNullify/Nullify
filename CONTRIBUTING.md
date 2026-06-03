@@ -41,5 +41,5 @@ extra scrutiny.
 ## One ask
 
 Do not contribute features whose main purpose is to defeat lawful investigation or to help with
-sanctions evasion or money laundering. Nullify is privacy infrastructure for lawful, self-custodial
+sanctions evasion or money laundering. Nulify is privacy infrastructure for lawful, self-custodial
 use. See the responsible-use note in the README.

@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="banner.png" alt="Nullify - nullify the trace" width="640" />
+<img src="banner.png" alt="Nulify - nullify the trace" width="640" />
 
-# Nullify
+# Nulify
 
 ### Cross-Chain Privacy Bridge
 
-**"Nullify the trace."**
+**"Nulify the trace."**
+
+[X ](https://x.com/nulifygg) | [nulify.gg](https://nulify.gg)
 
 Deposit on one chain. Withdraw on another. Leave nothing connecting the two.
 
@@ -20,7 +22,7 @@ Deposit on one chain. Withdraw on another. Leave nothing connecting the two.
 ---
 
 > **Honest status (read this first).**
-> Nullify is **early, in active development**. The zero-knowledge core works **end-to-end on a
+> Nulify is **early, in active development**. The zero-knowledge core works **end-to-end on a
 > local chain** - see [What works today](#what-works-today). It is **not deployed to any testnet
 > or mainnet yet**, there are **no live contracts**, and **no token**. Do not send real funds
 > anywhere; there is nowhere to send them. Testnet is the next milestone (see [Roadmap](#roadmap)).
@@ -30,7 +32,7 @@ Deposit on one chain. Withdraw on another. Leave nothing connecting the two.
 ## Why I built this
 
 Cross-chain privacy is still a hard, mostly unsolved problem. Most privacy pools live on a single
-chain, and bridging breaks the anonymity the moment funds move. Nullify is my attempt at the harder
+chain, and bridging breaks the anonymity the moment funds move. Nulify is my attempt at the harder
 version: a shielded pool whose unlinkability is meant to hold across chains, not just within one.
 
 I built the whole stack myself, from the PLONK circuit to the contracts to the relayer, and wired
@@ -43,9 +45,9 @@ design.
 
 ---
 
-## What is Nullify
+## What is Nulify
 
-Nullify is a cross-chain privacy bridge. You deposit into a shielded pool as a cryptographic
+Nulify is a cross-chain privacy bridge. You deposit into a shielded pool as a cryptographic
 *commitment*. To exit, you generate a zero-knowledge proof (PLONK) that you own *some* note in the
 pool - without revealing which one - and a one-time *nullifier* prevents double-spends. A relayer
 submits the withdrawal so the recipient needs no gas and leaves no link back to the depositor.
@@ -113,7 +115,7 @@ More detail: [`docs/architecture.md`](./docs/architecture.md) ·
 > Requires Node.js ≥ 20, `circom` ≥ 2.1, `snarkjs`.
 
 ```bash
-git clone https://github.com/UseNullify/nullify.git
+git clone https://github.com/nulifydot/nullify.git
 cd nullify
 npm install
 
@@ -170,7 +172,7 @@ Found something? Please report privately rather than opening a public issue - se
 
 ## Responsible use
 
-Nullify is privacy infrastructure for lawful, self-custodial use. It is not intended to facilitate
+Nulify is privacy infrastructure for lawful, self-custodial use. It is not intended to facilitate
 money laundering or sanctions evasion, and contributors do not support such use. Anyone running or
 integrating it is responsible for complying with the laws of their own jurisdiction.
 

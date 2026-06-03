@@ -13,6 +13,6 @@ npm run circuits:build
 ```
 
 This compiles the circuit, runs the PLONK setup, and regenerates
-`contracts/NullifyVerifier.sol`.
+`contracts/NulifyVerifier.sol`.
 
 > The powers-of-tau file must come from a trusted ceremony. See `docs/architecture.md` §7.
